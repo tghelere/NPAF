@@ -13,15 +13,17 @@ services:
     db:
         image: mariadb:latest
         volumes:
-            - nutri-paulaayresferreira.com.br:/var/lib/mysql
+            - paulaayresferreira:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: ${DB_PASS}
 
     wordpress:
-        image: wordpress:latest
+        # image: wordpress:latest 
+        build: ./
+        volumes:
+            - ./wp-content:/var/www/html/wp-content
         ports:
             - 80:80
 
-
 volumes:
-    nutri-paulaayresferreira.com.br:
+    paulaayresferreira:
