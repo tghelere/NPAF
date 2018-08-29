@@ -1,0 +1,27 @@
+#Author:        TGhelere
+#Github:        https://github.com/tghelere
+#Project Repo:  git@github.com:tghelere/wswd.git
+
+version: '3.1'
+
+services:
+    adminer:
+        image: adminer:latest
+        ports:
+            - "8080:8080"
+
+    db:
+        image: mariadb:latest
+        volumes:
+            - nutri-paulaayresferreira.com.br:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASS}
+
+    wordpress:
+        image: wordpress:latest
+        ports:
+            - 80:80
+
+
+volumes:
+    nutri-paulaayresferreira.com.br:
