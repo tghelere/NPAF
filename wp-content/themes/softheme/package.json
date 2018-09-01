@@ -1,0 +1,11 @@
+{
+  "name": "softheme",
+  "version": "1.0.0",
+  "description": "Theme developed by SofThing.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TGhelere",
+  "license": "ISC"
+}
