@@ -67,7 +67,7 @@
                 <div class="row copyright">
                     <div class="container">
                         <div class="col-md-6">
-                            <p>NUTRI PAULA AYRES FERREIRA - TODOS OS DIREITOS RESERVADOS - <?= date('Y'); ?></p>
+                            <p class="text-uppercase"><? bloginfo('name'); ?> - TODOS OS DIREITOS RESERVADOS - <?= date('Y'); ?></p>
                         </div>
                     </div>
                 </div>
