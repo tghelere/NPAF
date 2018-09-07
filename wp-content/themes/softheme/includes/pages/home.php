@@ -25,20 +25,20 @@
 <div class="row c4">
     <div class="col-md-4">
         <img src="" alt="">
-        <h2>Nutrição Funcional</h2>
-        <p>Um olhar integrado sobre o corpo e sua saúde. A nutrição individualizada, vista como a integração de processos físicos, metabólicos e psicológicos.</p>
+        <h2 class="text-center">Nutrição Funcional</h2>
+        <p class="text-center">Um olhar integrado sobre o corpo e sua saúde. A nutrição individualizada, vista como a integração de processos físicos, metabólicos e psicológicos.</p>
     </div>
     <div class="col-md-4">
         <img src="" alt="">
-        <h2>Health Coach</h2>
-        <p>Mentoria em nutrição visando o bem-estar e o equilíbrio, em busca de resultados. Saiba mais</p>
+        <h2 class="text-center">Health Coach</h2>
+        <p class="text-center">Mentoria em nutrição visando o bem-estar e o equilíbrio, em busca de resultados. Saiba mais</p>
     </div>
     <div class="col-md-4">
         <img src="" alt="">
-        <h2>Nas Mídias Sociais</h2>
-        <p>Semanalmente conteúdo interessante sobre Nutrição funcional, Alimentação, dieta Low Carb, receitas, dicas e muito mais. Acompanhe</p>
+        <h2 class="text-center">Nas Mídias Sociais</h2>
+        <p class="text-center">Semanalmente conteúdo interessante sobre Nutrição funcional, Alimentação, dieta Low Carb, receitas, dicas e muito mais. Acompanhe</p>
     </div>
 </div>
 <div class="row c5">
-    <div class="col-md-4 mx-auto"><button>AGENDE UMA CONSULTA</button></div>
+    <div class="col-md-5 mx-auto"><button>AGENDE UMA CONSULTA</button></div>
 </div>
