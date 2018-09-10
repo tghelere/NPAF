@@ -22,6 +22,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
+// Algumas constantes
+define('URL_FB', getenv('URL_FB'));
+define('URL_IG', getenv('URL_IG'));
+define('URL_MAP', getenv('URL_MAP'));
+define('EMBED_MAP', getenv('EMBED_MAP'));
+define('PHONE_N', getenv('PHONE_N'));
+define('PHONE_F', getenv('PHONE_F'));
+define('ADDRESS', getenv('ADDRESS'));
+define('CONTACT_MAIL', getenv('CONTACT_MAIL'));
+define('SOFT_MAIL', getenv('SOFT_MAIL'));
+// define('xxxxx', getenv('xxxxx'));
+
 // define('FS_METHOD','direct'); 
 
 // ** MySQL settings - You can get this info from your web host ** //

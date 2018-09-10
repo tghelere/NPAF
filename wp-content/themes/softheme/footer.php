@@ -4,17 +4,9 @@
             <div class="container-fluid">
                 <div class="row first-bar">
                     <h2>Nutri Paula Ayres Ferreira no Instagram</h2>
+                    <div ></div>
                 </div>
-                <div class="row">
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                    <div class="col box"></div>
-                </div>
+                <div class="row" id="instafeed"></div>
             </div>
             <div class="container-fluid verde">
                 <div class="container">
@@ -25,27 +17,24 @@
                                     <img class="rounded-circle img-fluid" src="<?php bloginfo('template_url'); ?>/assets/images/Blog_atualizacao.jpg" alt="">
                                 </div>
                                 <div class="col-md-8">
-                                    <p>Nutri Paula Ayres Ferreira é nutricionista (CNR8-4875) em Maringá. Atende principalmente
-                                        as áreas de nutrição funcional, emagrecimento, dieta vegan e vegetariana e distúrbios
-                                        alimentares
-                                    </p>
+                                    <p>Nutri Paula Ayres Ferreira é nutricionista (CNR8-4875) em Maringá. Atende principalmente as áreas de nutrição funcional, emagrecimento, dieta vegan e vegetariana e distúrbios alimentares</p>
                                 </div>
                             </div>
                             <div class="row second-ln">
                                 <div class="col-md-6 left">
                                     <ul class="list-unstyled list-inline socialicon">
-                                        <li class="list-inline-item facebook">
-                                            <a href="" title="Facebook">
+                                        <li class="list-inline-item">
+                                            <a class="facebook" href="<?= URL_FB; ?>" target="_blank" title="Facebook">
                                                 <span>Facebook</span>
                                             </a>
                                         </li>
-                                        <li class="list-inline-item googleplus">
-                                            <a href="" title="Google Plus">
+                                        <li class="list-inline-item">
+                                            <a class="googleplus" href="" target="_blank" title="Google Plus">
                                                 <span>Google Plus</span>
                                             </a>
                                         </li>
-                                        <li class="list-inline-item instagram">
-                                            <a href="" title="Instagram">
+                                        <li class="list-inline-item">
+                                            <a class="instagram" href="<?= URL_IG; ?>" target="_blank" title="Instagram">
                                                 <span>Instagram</span>
                                             </a>
                                         </li>
@@ -53,25 +42,31 @@
                                 </div>
                                 <div class="col-md-6 right">
                                     <ul class="list-unstyled list-inline">
-                                        <li class="whatsapp">44 99949-8690</li>
-                                        <li class="address">Av. Nóbrega, 536 - Z4 - Maringá</li>
+                                        <li class="whatsapp">
+                                            <a href="https://api.whatsapp.com/send?phone=<?= PHONE_N; ?>" title="<?= PHONE_F; ?>" target="_blank"><?= PHONE_F; ?></a>
+                                        </li>
+                                        <li class="address">
+                                            <a href="<?= URL_MAP; ?>" title="<?= ADDRESS; ?>" target="_blank"><?= ADDRESS; ?></a>
+                                       </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 mapa">
-                            mapa
+                            <?= EMBED_MAP; ?>
                         </div>
                     </div>
                 </div>
                 <div class="row copyright">
                     <div class="container">
                         <div class="col-md-6">
-                            <p class="text-uppercase"><? bloginfo('name'); ?> - TODOS OS DIREITOS RESERVADOS - <?= date('Y'); ?></p>
+                            <p class="text-uppercase">DESENVOLVIDO POR SOFTHING - <? bloginfo('name'); ?> / TODOS OS DIREITOS RESERVADOS - <?= date('Y'); ?></p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        <script type="text/javascript" src="<? bloginfo('template_url'); ?>/assets/js/scripts.min.js"></script>
+        <? wp_footer(); ?>
     </body>
 </html>
