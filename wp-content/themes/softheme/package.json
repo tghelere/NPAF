@@ -25,6 +25,7 @@
   "dependencies": {
     "bootstrap": "^4.1.3",
     "breakpoint-sass": "^2.7.1",
+    "hover.css": "^2.3.2",
     "instafeed.js": "^1.4.1"
   }
 }
