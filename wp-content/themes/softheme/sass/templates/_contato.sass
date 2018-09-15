@@ -1,0 +1,68 @@
+#contato
+    .content
+        p
+            color: $grey4
+            font-size: 16px
+            line-height: 25px
+            width: 100%
+            margin-bottom: 0 !important
+        h1
+            font-family: $fontFamily2
+            font-size: 50px
+            line-height: 55px
+            color: $green1
+            margin-bottom: 32px
+        ul.socialicon
+            li 
+                a
+                    height: 32px
+                    width: 32px
+                    display: block
+                    span
+                        display: none
+                    &.facebook
+                        background: url(../images/icons/verde_facebook.svg) no-repeat
+                    &.googleplus
+                        background: url(../images/icons/verde_G+.svg) no-repeat
+                    &.instagram
+                        background: url(../images/icons/verde_Instagram.svg) no-repeat
+        form.contact
+            max-width: 75%
+            div.quarenta
+                max-height: 40px
+                margin-bottom: 0
+            label
+                font-size: 12px
+                line-height: 17px
+                color: $green1
+                position: relative
+                top: 37px
+                &.name, &.email
+                    width: 50px
+                &.phone
+                    width: 125px
+            input, textarea
+                font-size: 14px
+                line-height: 19px
+                outline: none !important
+                box-shadow:none !important
+                border: 0
+                border-bottom: 1px solid $black2 
+                border-radius: 0
+                color: $green1
+                &::-webkit-input-placeholder
+                    color: $green4
+                    font-style: italic
+                    opacity: 0.79
+                &#name, &#email
+                    padding-left: 56px
+                &#phone
+                    padding-left: 130px
+            textarea
+                border: 1px solid $black2 
+            button
+                padding: 8px 44px
+                font-size: 10px
+                
+                    
+
