@@ -25,6 +25,8 @@ $dotenv->load();
 // Algumas constantes
 define('URL_FB', getenv('URL_FB'));
 define('URL_IG', getenv('URL_IG'));
+define('URL_GP', getenv('URL_GP'));
+define('URL_WA', 'https://api.whatsapp.com/send?phone='.getenv('PHONE_N'));
 define('URL_MAP', getenv('URL_MAP'));
 define('EMBED_MAP', getenv('EMBED_MAP'));
 define('PHONE_N', getenv('PHONE_N'));

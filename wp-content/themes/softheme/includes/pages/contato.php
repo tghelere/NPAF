@@ -19,7 +19,7 @@
             </a>
         </li>
         <li class="list-inline-item">
-            <a class="googleplus" href="" target="_blank" title="Google Plus">
+            <a class="googleplus" href="<?= URL_GP; ?>" target="_blank" title="Google Plus">
                 <span>Google Plus</span>
             </a>
         </li>

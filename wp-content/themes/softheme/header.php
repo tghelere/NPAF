@@ -14,6 +14,8 @@
         <? wp_head(); ?>
     </head>
     <body <? body_class(); ?> id="<?= is_front_page() ? 'home' : $wp->request; ?>">
+    <? include('includes/molecules/button_smc.php'); ?>
+    <? include('includes/organisms/modal_smc.php'); ?>
         <header>
             <div class="container-fluid">
                 <div class="row gray-bar">

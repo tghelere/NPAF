@@ -2,3 +2,21 @@ button
     background-color: $green1
     color: $white
     border: none
+
+    &.btn-smc
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+        position: fixed
+        display: block
+        top: 40%
+        // right: 0
+        right: -72px
+        border-radius: 0
+        z-index: 5
+
+        &:hover
+            background-color: #C3DA56
+            color: #000
