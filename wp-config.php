@@ -36,7 +36,7 @@ define('CONTACT_MAIL', getenv('CONTACT_MAIL'));
 define('SOFT_MAIL', getenv('SOFT_MAIL'));
 // define('xxxxx', getenv('xxxxx'));
 
-// define('FS_METHOD','direct'); 
+define('FS_METHOD','direct'); 
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */

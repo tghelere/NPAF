@@ -1,47 +1,74 @@
+.modal
+    // display: block
 .modal.right .modal-dialog
+    // max-height: 500px
     position: fixed
     margin: auto
     min-width: 60vw
     max-width: 80vw
     height: 100%
+    display: block
     -webkit-transform: translate3d(0%, 0, 0)
     -ms-transform: translate3d(0%, 0, 0)
     -o-transform: translate3d(0%, 0, 0)
     transform: translate3d(0%, 0, 0)
-
-// .modal.right .modal-content
-//     width: 80%
-
-// .modal.right .modal-content
-//     max-height: 80vh
-//     display: flex
-//     flex-direction: column
-//     justify-content: center
-//     overflow: auto
-//     @media(max-width: 768px)
-//         min-height: calc(100vh - 20px)
-
-
 .modal.right .modal-body
-    padding: 70px 100px
-
-/*Right*/
+    padding: 50px 100px 70px
 .modal.right.fade .modal-dialog
     right: 0
     -webkit-transition: opacity 0.3s linear, right 0.3s ease-out
     -moz-transition: opacity 0.3s linear, right 0.3s ease-out
     -o-transition: opacity 0.3s linear, right 0.3s ease-out
     transition: opacity 0.3s linear, right 0.3s ease-out
-
 .modal.right.fade.in .modal-dialog
     right: -320px
 
-/* ----- MODAL STYLE ----- */
 .modal-content
     border-radius: 0
     border: none
     background: $green1 url(../images/texturafolhas.png) repeat
-
-.modal-header
-    border-bottom-color: #EEEEEE
-    background-color: #FAFAFA
+.modal#modalSmc
+    h1
+        color: $white
+        font-size: 30px
+        line-height: 31px
+    .addressphone ul
+        text-align: right
+        padding: unset
+        height: 40px
+        margin: 15px 0 0
+        li
+            font-size: 12px
+            line-height: 19px
+            padding-left: 25px
+            background-size: 16px
+            &.whatsapp
+                background: url(../images/icons/line_whats_v.svg) no-repeat
+                fill: $green3
+            &.address
+                background: url(../images/icons/br_maps_v.svg) no-repeat
+                margin-top: 12px
+                margin-bottom: 62px
+            a
+                color: $white
+                height: 100%
+                width: 100%
+                display: block
+    .social 
+        ul.socialicon
+            text-align: right
+            height: 40px
+            margin: 20px 0 0
+            li 
+                a
+                    height: 28px
+                    width: 28px
+                    display: block
+                    span
+                        display: none
+                    &.facebook
+                        background: url(../images/icons/line_facebook_v.svg) no-repeat
+                    &.googleplus
+                        background: url(../images/icons/line_g_v.svg) no-repeat
+                    &.instagram
+                        background: url(../images/icons/line_insta_v.svg) no-repeat

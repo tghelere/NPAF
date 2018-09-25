@@ -26,31 +26,28 @@
     </ul>
 </div>
 <div class="row">
-    <p></p>
-</div>
-<div class="row">
     <div class="col-md-6 p-0">
         <p class="pb-3">Consultório <? bloginfo('name'); ?> - <?= ADDRESS; ?></p>
         <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/images/consultorio.jpg" alt="<? bloginfo('name'); ?>">
     </div>
     <div class="col-md-6">
         <form action="" class="contact mx-auto">
-            <div class="form-group quarenta">
+            <div class="form-group campo">
                 <label class="name" for="name">Nome</label>
                 <input id="name" name="name" class="form-control" placeholder="Mariana Alencar" type="text">
             </div>
-            <div class="form-group quarenta">
+            <div class="form-group campo">
                 <label class="email" for="email">E-mail*</label>
                 <input id="email" name="email" class="form-control" placeholder="nome@email.com" type="email">
             </div>
-            <div class="form-group quarenta">
+            <div class="form-group campo">
                 <label class="phone" for="phone">Telefone de Contato*</label>
                 <input id="phone" name="phone" class="form-control" placeholder="44 9999-2233*" type="tel">
             </div>
-            <div class="form-group mt-4 pt-5">
-                <textarea class="form-control" placeholder="Mensagem" id="message" name="message" rows="8"></textarea>
+            <div class="form-group mt-3">
+                <textarea class="form-control" placeholder="Mensagem" id="message" name="message" rows="7"></textarea>
             </div>
-            <button class="float-right mt-3" type="submit">ENVIAR</button>
+            <button class="mt-3 btn float-right" type="submit">ENVIAR</button>
         </form>
     </div>
 </div>

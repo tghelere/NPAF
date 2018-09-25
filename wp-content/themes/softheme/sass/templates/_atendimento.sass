@@ -1,6 +1,14 @@
 #atendimento
     .content
         margin-top: 94px
+        .flexbox
+            display: -webkit-flex
+            display: -ms-flexbox
+            display: flex
+            overflow: hidden
+            .col
+                flex: 1
+            
         h1
             font-family: $fontFamily2
             font-size: 50px
@@ -14,20 +22,26 @@
         p
             font-size: 16px
             line-height: 25px
+            margin: 30px auto
             &.sub
                 margin: 22px auto 62px
-        .col div
-            height: 740px
-            padding: 100px 50px
         .one
+            height: 100%
+            padding: 80px 50px
             background-color: $green1
             h3, p
                 color: $white
         .two
+            height: 100%
+            padding: 80px 50px
             background-color: $green3
             h3, p
                 color: $black2
+
+
         .three
+            height: 100%
+            padding: 80px 50px
             background-color: $green4
             h3, p
                 color: $black2

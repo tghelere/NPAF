@@ -40,5 +40,5 @@
     </div>
 </div>
 <div class="row c5">
-    <div class="col-md-5 mx-auto"><button>AGENDAR CONSULTA</button></div>
+    <div class="col-md-5 mx-auto"><button type="button" class="btn" data-toggle="modal" data-target="#modalSmc">AGENDAR CONSULTA</button></div>
 </div>

@@ -14,7 +14,7 @@
                         <div class="col-md-6">
                             <div class="row first-ln">
                                 <div class="col-md-4 foto">
-                                    <img class="rounded-circle img-fluid" src="<?php bloginfo('template_url'); ?>/assets/images/Blog_atualizacao.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="<?php bloginfo('template_url'); ?>/assets/images/Paula_thumbrodape.jpg" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <p>Nutri Paula Ayres Ferreira é nutricionista (CNR8-4875) em Maringá. Atende principalmente as áreas de nutrição funcional, emagrecimento, dieta vegan e vegetariana e distúrbios alimentares</p>
@@ -66,26 +66,6 @@
                 </div>
             </div>
         </footer>
-        
-        <!-- WhatsHelp.io widget -->
-        <script type="text/javascript">
-            (function () {
-                var options = {
-                    facebook: "221904098601428", // Facebook page ID
-                    whatsapp: "5544999498690", // WhatsApp number
-                    call_to_action: "Message us", // Call to action
-                    button_color: "#A8CE50", // Color of button
-                    position: "right", // Position may be 'right' or 'left'
-                    order: "facebook,whatsapp", // Order of buttons
-                };
-                var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-            })();
-        </script>
-        <!-- /WhatsHelp.io widget -->
-
         <script type="text/javascript" src="<? bloginfo('template_url'); ?>/assets/js/scripts.min.js"></script>
         <? wp_footer(); ?>
     </body>
