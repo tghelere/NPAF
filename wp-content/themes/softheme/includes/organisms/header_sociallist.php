@@ -15,10 +15,10 @@
                 <span>Facebook</span>
             </a>
         </li>
-        <li class="list-inline-item googleplus">
+        <!-- <li class="list-inline-item googleplus">
             <a href="<?= URL_GP; ?>" title="Google Plus" class="socialicon" target="_blank">
                 <span>Google Plus</span>
             </a>
-        </li>
+        </li> -->
     </ul>
 </div>

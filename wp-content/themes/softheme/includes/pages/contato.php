@@ -18,36 +18,22 @@
                 <span>Instagram</span>
             </a>
         </li>
-        <li class="list-inline-item">
+        <!-- <li class="list-inline-item">
             <a class="googleplus" href="<?= URL_GP; ?>" target="_blank" title="Google Plus">
                 <span>Google Plus</span>
             </a>
-        </li>
+        </li> -->
     </ul>
 </div>
 <div class="row">
     <div class="col-md-6 p-0">
         <p class="pb-3">Consultório <? bloginfo('name'); ?> - <?= ADDRESS; ?></p>
-        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/images/consultorio.jpg" alt="<? bloginfo('name'); ?>">
+        <img class="img-fluid" src="<? bloginfo('template_url'); ?>/assets/images/consultorio.jpg" alt="<? bloginfo('name'); ?>">
     </div>
     <div class="col-md-6">
-        <form action="" class="contact mx-auto">
-            <div class="form-group campo">
-                <label class="name" for="name">Nome</label>
-                <input id="name" name="name" class="form-control" placeholder="Mariana Alencar" type="text">
-            </div>
-            <div class="form-group campo">
-                <label class="email" for="email">E-mail*</label>
-                <input id="email" name="email" class="form-control" placeholder="nome@email.com" type="email">
-            </div>
-            <div class="form-group campo">
-                <label class="phone" for="phone">Telefone de Contato*</label>
-                <input id="phone" name="phone" class="form-control" placeholder="44 9999-2233*" type="tel">
-            </div>
-            <div class="form-group mt-3">
-                <textarea class="form-control" placeholder="Mensagem" id="message" name="message" rows="7"></textarea>
-            </div>
-            <button class="mt-3 btn float-right" type="submit">ENVIAR</button>
-        </form>
+        <?
+            the_post();
+            the_content();
+        ?>
     </div>
 </div>

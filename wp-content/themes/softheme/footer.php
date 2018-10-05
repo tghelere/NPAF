@@ -28,11 +28,11 @@
                                                 <span>Facebook</span>
                                             </a>
                                         </li>
-                                        <li class="list-inline-item">
+                                        <!-- <li class="list-inline-item">
                                             <a class="googleplus" href="<?= URL_GP; ?>" target="_blank" title="Google Plus">
                                                 <span>Google Plus</span>
                                             </a>
-                                        </li>
+                                        </li> -->
                                         <li class="list-inline-item">
                                             <a class="instagram" href="<?= URL_IG; ?>" target="_blank" title="Instagram">
                                                 <span>Instagram</span>

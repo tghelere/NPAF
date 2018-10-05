@@ -28,7 +28,11 @@
                         <? include('includes/organisms/header_sociallist.php'); ?>
                     </div>
                 </div>
-                <div class="row banners <?= is_front_page() ? 'home' : $wp->request; ?>"></div>
+                <? if (is_front_page()) {
+                    masterslider(1);
+                }else{ ?>
+                    <div class="row banners <?= $wp->request; ?>"></div>
+                <? } ?>
             </div>
         </header>
         <main>

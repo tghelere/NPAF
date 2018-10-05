@@ -1,4 +1,8 @@
 form
+    span.wpcf7-not-valid-tip
+        font-size: 12px
+    .wpcf7-response-output
+        display: none !important
     input
         font-size: 14px !important
         line-height: 37px !important
@@ -38,7 +42,7 @@ form
         border: 1px solid $white !important
         padding: 8px 44px !important
         font-size: 10px !important
-    &.newsletter
+    .newsletter
         label
             color: $green1
         input
@@ -51,7 +55,11 @@ form
                 padding-left: 56px
             &:focus
                 border-bottom: 1px solid $black2  !important
-    &.contact
+        span.email, span.nome
+            span.wpcf7-not-valid-tip
+                margin-top: -38px
+        
+    .contact
         max-width: 75%
         margin-top: 20px
         label
@@ -66,12 +74,16 @@ form
                 padding-left: 56px
             &#phone
                 padding-left: 130px
+        span.email, span.nome, span.phone
+            span.wpcf7-not-valid-tip
+                margin-top: -38px
         textarea
             border: 1px solid $black2 
             &::placeholder
                 color: $green4
             &:focus
-                border: 1px solid $black2 
+                border: 1px solid $black2
+
     &.form-smc
         .btn span.glyphicon
             opacity: 0

@@ -29,17 +29,10 @@
                 <p>Se não quiser perder os lançamentos, inscreva seu e-mail aqui Prometemos não enviar spams ;)</p>
                 <div class="row" id="form_newsletter">
                     <div class="col-md-12">
-                        <form action="" class="newsletter mx-auto">
-                            <div class="form-group campo">
-                                <label class="name" for="name">Nome</label>
-                                <input id="name" name="name" class="form-control" placeholder="Mariana Alencar" type="text">
-                            </div>
-                            <div class="form-group campo">
-                                <label class="email" for="email">E-mail*</label>
-                                <input id="email" name="email" class="form-control" placeholder="nome@email.com" type="email">
-                            </div>
-                            <button class="btn py-3 px-5 d-block mx-auto sbmt-newsletter text-uppercase" title="Cadastrar" type="submit">Cadastrar</button>
-                        </form>
+                        <?
+                            the_post();
+                            the_content();
+                        ?>
                     </div>
                 </div>
             </div>
